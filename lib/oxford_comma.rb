@@ -12,7 +12,7 @@ def oxford_comma(array)
       else 
         sentence += "#{array[counter]}, "
       end 
-      return sentence 
-    end
+    end 
+    return sentence 
   end
 end
