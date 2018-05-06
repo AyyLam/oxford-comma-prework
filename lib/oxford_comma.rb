@@ -11,6 +11,7 @@ def oxford_comma(array)
         sentence += "and #{array[counter]}" 
       else 
         sentence += "#{array[counter]}, "
+      counter += 1
       end 
     end 
     return sentence 
